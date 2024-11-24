@@ -1,0 +1,133 @@
+body{background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-technology-background-image-picture-image_1131510.jpg);
+    
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #00FFFF;
+    display: fixed;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0%;
+    align-items: center;
+
+}
+header nav ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+header nav ul a{
+    color: #007BFF;
+    font-weight: bolder;
+}
+
+    
+
+/* Carrosell */
+.Carrosell{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+
+}
+
+.Carrosell-imagem {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.Carrosell-imagem img {
+    width: 100%;
+    flex-shrink: 0;
+    display: none;
+}
+.Carrosell-imagem img.active {
+    display: block;
+}
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0 , 0, 0, 00.5s);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 2 ;
+}
+
+.seta.esquerda {
+    left: 10px;
+}
+
+.seta.direita {
+    right: 10px;
+}
+
+.seta:hover {
+    background-color: rgba(0 , 0, 0, 00.7s);
+}
+
+.footer{
+    background-color:blue ;
+    color: black;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.rodape-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.rodape-coluna{
+    flex: 1;
+    margin: 0 10px;
+}
+
+.rodape-coluna h3{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.rodape-coluna a{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rodape-coluna a:hover{
+    text-decoration: underline;
+}
+
+.botao-zap{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.botao-zap:hover{
+    background-color: #1EBE5B;
+}
